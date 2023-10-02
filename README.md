@@ -15,6 +15,7 @@
 &emsp;&emsp;RFM就是一种典型的对客户分类然后针对性营销的模型，是客户关系管理（CRM）领域照片中的一种定量分析模型。它是由R(最近消费时间间隔)、F(消费频次)和M(消费总额)三个指标构成，通过该模型识别出高价值客户。  
 &emsp;&emsp;`dw.ol_rs_meta_feature_rfm_model`运用RFM模型，考察用户关于度假订单的相关数据，计算如下指标：
 
+<!-- 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -26,6 +27,7 @@
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
+-->
 <table class="tg">
 <thead>
   <tr>
@@ -141,6 +143,7 @@ fig.show()
 >> + M：客户在观测窗口内累计的飞行里程碑。
 >> + C：客户在观测窗口内乘坐仓位所对应的折扣系数的平均值。
 
+<!--
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -152,6 +155,7 @@ fig.show()
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
+-->
 <table class="tg">
 <thead>
   <tr>
@@ -589,6 +593,7 @@ plt.show()
 
 &emsp;&emsp;**客户价值分析：**
 
+<!--
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -600,6 +605,7 @@ plt.show()
 .tg .tg-zm63{background-color:#B7DCFB;font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 </style>
+-->
 <table class="tg">
 <thead>
   <tr>
