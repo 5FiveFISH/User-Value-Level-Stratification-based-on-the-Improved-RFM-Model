@@ -99,7 +99,7 @@
 </tbody>
 </table>
 
-&emsp;&emsp;然后将三指标值求和得到用户度假的RFM值，即 $ RFM = R + F + M $ 。原始数据库中根据RFM取值将用户价值等级分为了13个等级，分别为 $ \{3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9\} $ ，用户等级分布情况如下图所示。
+&emsp;&emsp;然后将三指标值求和得到用户度假的RFM值，即RFM = R + F + M。原始数据库中根据RFM取值将用户价值等级分为了13个等级，分别为{3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9}，用户等级分布情况如下图所示。
 
 <div align="center"> 
   <a href="https://raw.githubusercontent.com/5FiveFISH/Figure/main/img/202309270925559.png">
@@ -488,7 +488,7 @@ select
 ;
 ```
 
-&emsp;&emsp;根据LRFMP值将用户价值等级分为了21个等级，分别为 $ \{5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15\} $，用户等级分布情况如下图所示。
+&emsp;&emsp;根据LRFMP值将用户价值等级分为了21个等级，分别为{5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15}，用户等级分布情况如下图所示。
 
 <div align="center"> 
   <a href="https://raw.githubusercontent.com/5FiveFISH/Figure/main/img/202309270928777.png">
@@ -528,7 +528,7 @@ data[['cust_id', 'l_value', 'r_value', 'f_value', 'm_value', 'p_value', 'lrfmp']
 # print("误差平方和：", sse)
 ```
 
-&emsp;&emsp;将用户划分为5类，即 $ lrfmp∈\{0, 1, 2, 3, 4\} $，聚类结果如下：
+&emsp;&emsp;将用户划分为5类，即lrfmp ∈ {0, 1, 2, 3, 4}，聚类结果如下：
 
 <div align="center"> 
   <a href="https://raw.githubusercontent.com/5FiveFISH/Figure/main/img/202309270938579.png">
